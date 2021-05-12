@@ -1,0 +1,33 @@
+.background{
+	background-image: url(../images/pic12.jpg);
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.nav{
+	text-align: center;
+	font-family: timenewroman;
+	font-size: 35px;
+}
+.index{
+	background-color: transparent;
+	color: black;
+}
+a{
+	color: white;
+	text-decoration: none;
+	background-color: transparent;
+	font-weight: bold;
+	margin: 0.5%;
+}
+a.active, .nav a:hover{
+	background-color:transparent;
+	color: black;
+	width: 100%;
+}
+.profile{
+	height:300px;
+	width: 300px;
+	border-image: 150px;
+	 display: block;
+	 margin-top: -25px;
